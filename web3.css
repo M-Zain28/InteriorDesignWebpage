@@ -1,0 +1,79 @@
+        body{
+            background-image: url(bg1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            left: 20px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 23px;
+
+        }
+        .left h3{
+            margin: 0px;
+        }
+        .right{
+            display: inline-block;
+            position: absolute;
+            right: 20px;
+            width: 800px;
+        }
+        .navbar li{
+            cursor: pointer;
+            display: inline;
+            text-decoration: none;
+            list-style: none;
+            color: white;
+            padding: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 23px;
+        }
+        .center{
+            display: inline-block;
+            position: absolute;
+            left: 280px;
+            top: 280px;
+            /* margin: 0px; */
+            width: 800px;
+            color: white;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /* font-size: 25px; */
+        }
+        .center h1{
+            font-size: 70px;
+            margin: 0px;
+        }
+        .center p{
+            font-size: 15px;
+        }
+        .btn{
+            display: inline-block;
+            position: absolute;
+            left: 500px;
+            top: 420px;
+            
+            /* width: 800px; */
+            padding: 20px;
+            /* margin: 5px; */
+        }
+        button{
+            padding: 10px 35px 10px 35px;
+            background-color: transparent;
+            border-radius: 10px;
+            border-color: brown;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+        }
+        button:hover{
+            background-color: brown;
+            cursor: pointer;
+        }
+        #b1{
+            background-color: brown;
+        }
